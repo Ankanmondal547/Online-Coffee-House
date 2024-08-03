@@ -1,13 +1,43 @@
-Project : E-Commerce website(Online Coffee House)
-Duration: Six months
-Technologies Used: Html, Css, Javascript, C#, ASP.Dotnet
+# E-Commerce Website (Online Coffee House)
 
-•	Created a dynamic E-Commerce website with user-friendly interface that reflects the passion and culture of coffee.
+## Project Overview
+This project is a dynamic E-Commerce website designed for an Online Coffee House. The website aims to provide a user-friendly interface that reflects the passion and culture of coffee, allowing users to explore and purchase a diverse range of coffee products.
 
-•	Developed different Module (Registration, product catalog, Cart Product, Customer Account, Admin panel, Feedback/Query, etc).
+## Duration
+- **Six months**
 
-•	Enable users to explore and purchase a diverse range of coffee products through a well-organized catalog and search functionality.
+## Technologies Used
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** C#, ASP.NET
 
-•	Maintaining the relationships between data in the database .Ensuring that data is stored correctly- that the rules defining the relationships between data are not violated.
+## Features
+- **User-Friendly Interface:** A dynamic and engaging UI that enhances user experience.
+- **Modules Developed:**
+  - **Registration:** User sign-up and authentication.
+  - **Product Catalog:** Display of coffee products with details and images.
+  - **Cart Product:** Add to cart functionality for seamless shopping.
+  - **Customer Account:** User profile management.
+  - **Admin Panel:** Administrative functionalities for managing products, users, and orders.
+  - **Feedback/Query:** System for users to provide feedback and raise queries.
+- **Search Functionality:** Enables users to search for coffee products efficiently.
+- **Database Management:** 
+  - Maintaining relationships between data.
+  - Ensuring data integrity and correctness.
+- **Project Documentation:** Comprehensive documentation of all project aspects.
 
-•	Also doing all the documentation of the project.
+## Key Contributions
+- Developed a dynamic E-Commerce website with a user-friendly interface.
+- Created various modules including registration, product catalog, cart, customer account, admin panel, and feedback/query system.
+- Implemented search functionality for easy navigation of products.
+- Ensured proper database management and data integrity.
+- Handled all project documentation.
+
+## How to Use
+1. Clone the repository.
+2. Open the project in your preferred development environment.
+3. Build and run the project to launch the website.
+
+## Contact
+For any queries or feedback, please contact Ankan Mondal at Ankanmondal547@gmail.com.
+
+
