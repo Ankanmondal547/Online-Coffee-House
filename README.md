@@ -9,6 +9,7 @@ This project is a dynamic E-Commerce website designed for an Online Coffee House
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** C#, ASP.NET
+- **Database:** MySQL
 
 ## Features
 - **User-Friendly Interface:** A dynamic and engaging UI that enhances user experience.
