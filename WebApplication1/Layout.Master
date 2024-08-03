@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.Master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My Coffee Website</title>
+
+
+
+        <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css\style.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="Home.aspx">home</a>
+        <a href="About.aspx">about</a>
+        <a href="Products.aspx">products</a>
+        <a href="Contact.aspx">contact</a>
+        <asp:LinkButton ID="linkLogin" runat="server" OnClick="linkLogin_Click">Login</asp:LinkButton>
+        <a href="addtocart.aspx"> <i class="fas fa-shopping-cart"></i></a>
+        <a href="UserProfile.aspx"> <i class="fa fa-user"></i></a>
+
+        
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+
+            <!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://www.facebook.com/profile.php?id=100077411358862" class="fab fa-facebook-f"></a>
+        <a href="https://www.linkedin.com/in/ankan-mondal-90814a21b/" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/ankanmondal._/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/ankan-mondal-90814a21b/" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="links">
+        <a href="Home.aspx">home</a>
+        <a href="About.aspx">about</a>
+        <a href="Products.aspx">products</a>
+        <a href="Contact.aspx">contact</a>
+    </div>
+
+    <div class="credit">created by <span>mr.Ankan mondal</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+
+<script src="js/script.js"></script>
+
+
+    </div>
+    </form>
+</body>
+</html>
